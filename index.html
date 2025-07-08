@@ -87,8 +87,8 @@
           </li>
         </ul>
       </aside>
-      <picture>
-        <img class="Story-image" src="./assets/main.jpg" alt="BrainerX restaurant interior" width="500px">
+      <picture class="">
+        <img class="Story-image" src="./assets/main.jpg" alt="BrainerX restaurant interior" width="100px">
       </picture>
     </section>
 
@@ -188,7 +188,6 @@
     </section>
 
     <section id="contact-section">
-      <div class="container">
         <aside>
           <span class="tag">Reservations</span>
           <h2>Book Your Table</h2>
@@ -203,22 +202,23 @@
         </aside>
 
         <form class="reservation-form">
-          <div>
-            <h3> Make a Reservation</h3>
+          <h3> Make a Reservation</h3>
+          <div class="input-in-the-same-line">
             <input required type="text" placeholder="First Name">
             <input required type="text" placeholder="Last Name">
           </div>
           <input required type="email" placeholder="Email Address">
           <input required type="tel" placeholder="Phone Number">
-          <div>
+          <div class="input-in-the-same-line">
             <input required type="date" placeholder="mm/dd/yyyy">
             <input required type="time">
           </div>
           <input required type="number" placeholder="Number of Guests" min="1" max="12">
           <input type="text" placeholder="Special Requests (optional)">
           <button type="submit" value="Reserve Table"> Reserve table</button>
+        </div>
         </form>
-      </div>
+      
     </section>
 
     <section id="visit-section">
@@ -264,7 +264,7 @@
           <picture>
             <img src="./assets/logo.jpeg" alt=" BrainerX restaurant logo" width="200px">
           </picture>
-          <figcaption>
+          <figcaption class="footer-img">
             BrainerX Restaurant
           </figcaption>
         </figure>
